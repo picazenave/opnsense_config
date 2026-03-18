@@ -439,7 +439,7 @@ xAuwoBSxXROfQdAlJ2/9AAAAHHBpZXJyZS5jYXplbmF2ZTMzQG91dGxvb2suZnIB&#13;
   <revision>
     <username>root@192.168.1.35</username>
     <description>/api/zenarmor/configuration/license_detail made changes</description>
-    <time>1773832299.88</time>
+    <time>1773832300.34</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1402,7 +1402,7 @@ xAuwoBSxXROfQdAlJ2/9AAAAHHBpZXJyZS5jYXplbmF2ZTMzQG91dGxvb2suZnIB&#13;
         <port>19999</port>
       </general>
     </netdata>
-    <Zenarmor version="0.0.0" persisted_at="1773832299.88" description="OPNsense Zenarmor Application">
+    <Zenarmor version="0.0.0" persisted_at="1773832300.34" description="OPNsense Zenarmor Application">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
