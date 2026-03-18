@@ -22,6 +22,11 @@
       <value>1000000</value>
       <descr>Automatically added by Zenarmor</descr>
     </item>
+    <item>
+      <tunable>dev.netmap.admode</tunable>
+      <value>2</value>
+      <descr>Automatically added by Zenarmor</descr>
+    </item>
   </sysctl>
   <system>
     <optimization>normal</optimization>
@@ -135,6 +140,7 @@ xAuwoBSxXROfQdAlJ2/9AAAAHHBpZXJyZS5jYXplbmF2ZTMzQG91dGxvb2suZnIB&#13;
       <ipaddrv6>track6</ipaddrv6>
       <track6-interface/>
       <track6-prefix-id>0</track6-prefix-id>
+      <mtu>1500</mtu>
     </lan>
     <lo0>
       <internal_dynamic>1</internal_dynamic>
@@ -438,9 +444,9 @@ xAuwoBSxXROfQdAlJ2/9AAAAHHBpZXJyZS5jYXplbmF2ZTMzQG91dGxvb2suZnIB&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.1.35</username>
-    <description>/api/zenarmor/configuration/deployment made changes</description>
-    <time>1773832767.90</time>
+    <username>(root)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1773850592.06</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1616,6 +1622,21 @@ xAuwoBSxXROfQdAlJ2/9AAAAHHBpZXJyZS5jYXplbmF2ZTMzQG91dGxvb2suZnIB&#13;
         <webcategoriesType/>
       </rules>
     </Zenarmor>
+    <crowdsec>
+      <general version="1.0.12" persisted_at="1773850592.05" description="CrowdSec general configuration">
+        <agent_enabled>1</agent_enabled>
+        <lapi_enabled>1</lapi_enabled>
+        <firewall_bouncer_enabled>1</firewall_bouncer_enabled>
+        <lapi_manual_configuration>0</lapi_manual_configuration>
+        <lapi_listen_address>127.0.0.1</lapi_listen_address>
+        <lapi_listen_port>8080</lapi_listen_port>
+        <rules_enabled>1</rules_enabled>
+        <rules_log>0</rules_log>
+        <rules_tag/>
+        <enroll_key/>
+        <crowdsec_firewall_verbose>0</crowdsec_firewall_verbose>
+      </general>
+    </crowdsec>
   </OPNsense>
   <hasync version="1.0.2" persisted_at="1764901665.64">
     <disablepreempt>0</disablepreempt>
