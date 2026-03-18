@@ -428,7 +428,7 @@ xAuwoBSxXROfQdAlJ2/9AAAAHHBpZXJyZS5jYXplbmF2ZTMzQG91dGxvb2suZnIB&#13;
   <revision>
     <username>(root)</username>
     <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1773832097.83</time>
+    <time>1773832097.96</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1378,7 +1378,7 @@ xAuwoBSxXROfQdAlJ2/9AAAAHHBpZXJyZS5jYXplbmF2ZTMzQG91dGxvb2suZnIB&#13;
         <port>19999</port>
       </general>
     </netdata>
-    <Zenarmor version="0.0.0" persisted_at="1773832097.83" description="OPNsense Zenarmor Application">
+    <Zenarmor version="0.0.0" persisted_at="1773832097.96" description="OPNsense Zenarmor Application">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
@@ -1449,7 +1449,7 @@ xAuwoBSxXROfQdAlJ2/9AAAAHHBpZXJyZS5jYXplbmF2ZTMzQG91dGxvb2suZnIB&#13;
           <Version>56800</Version>
           <FullVersion/>
           <Remote>false</Remote>
-          <Prefix/>
+          <Prefix>zenarmor_0000000000_eb015dfc-8729-4e2f-83a8-d9205feb1a00_</Prefix>
           <ClusterUUID/>
           <retireAfter>7</retireAfter>
           <dbpath/>
