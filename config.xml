@@ -117,6 +117,7 @@ xAuwoBSxXROfQdAlJ2/9AAAAHHBpZXJyZS5jYXplbmF2ZTMzQG91dGxvb2suZnIB&#13;
       <GDrivePassword>notasecret</GDrivePassword>
       <GDriveFolderID>1DkbPXjOtS-EiUe1x9Qy1aUVKB5z_7Fa_</GDriveFolderID>
     </remotebackup>
+    <dnssearchdomain/>
   </system>
   <interfaces>
     <wan>
@@ -437,8 +438,8 @@ xAuwoBSxXROfQdAlJ2/9AAAAHHBpZXJyZS5jYXplbmF2ZTMzQG91dGxvb2suZnIB&#13;
   </ntpd>
   <revision>
     <username>(root)</username>
-    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1773832103.75</time>
+    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLIResolv.php made changes</description>
+    <time>1773832105.14</time>
   </revision>
   <OPNsense>
     <wireguard>
