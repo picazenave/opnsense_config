@@ -73,7 +73,7 @@
     <firmware version="1.0.1" persisted_at="1764901665.59">
       <mirror/>
       <flavour/>
-      <plugins>os-collectd,os-cpu-microcode-intel,os-dmidecode,os-gdrive-backup,os-git-backup,os-isc-dhcp,os-netdata</plugins>
+      <plugins>os-collectd,os-cpu-microcode-intel,os-dmidecode,os-gdrive-backup,os-git-backup,os-isc-dhcp,os-netdata,os-sunnyvalley</plugins>
       <type/>
       <subscription/>
       <reboot>0</reboot>
@@ -426,9 +426,9 @@ xAuwoBSxXROfQdAlJ2/9AAAAHHBpZXJyZS5jYXplbmF2ZTMzQG91dGxvb2suZnIB&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.1.35</username>
-    <description>/diag_backup.php made changes</description>
-    <time>1773693949.02</time>
+    <username>(root)</username>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1773832067.95</time>
   </revision>
   <OPNsense>
     <wireguard>
