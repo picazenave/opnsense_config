@@ -614,6 +614,23 @@ xAuwoBSxXROfQdAlJ2/9AAAAHHBpZXJyZS5jYXplbmF2ZTMzQG91dGxvb2suZnIB&#13;
             <categories/>
             <description>CrowdSec (IPv4)</description>
           </alias>
+          <alias uuid="547ab914-46f1-4320-887e-375a12883bb2">
+            <enabled>1</enabled>
+            <name>crowdsec6_blocklists</name>
+            <type>external</type>
+            <path_expression/>
+            <proto>IPv6</proto>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content/>
+            <password/>
+            <username/>
+            <authtype/>
+            <expire/>
+            <categories/>
+            <description>CrowdSec (IPv6)</description>
+          </alias>
         </aliases>
       </Alias>
       <Category version="1.0.0" persisted_at="1764901665.96">
