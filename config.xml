@@ -83,7 +83,7 @@
     <firmware version="1.0.1" persisted_at="1764901665.59">
       <mirror/>
       <flavour/>
-      <plugins>os-collectd,os-cpu-microcode-intel,os-dmidecode,os-gdrive-backup,os-git-backup,os-isc-dhcp,os-netdata,os-sensei-updater,os-sunnyvalley</plugins>
+      <plugins>os-collectd,os-cpu-microcode-intel,os-dmidecode,os-gdrive-backup,os-git-backup,os-isc-dhcp,os-netdata,os-sensei,os-sensei-updater,os-sunnyvalley</plugins>
       <type/>
       <subscription/>
       <reboot>0</reboot>
@@ -438,8 +438,8 @@ xAuwoBSxXROfQdAlJ2/9AAAAHHBpZXJyZS5jYXplbmF2ZTMzQG91dGxvb2suZnIB&#13;
   </ntpd>
   <revision>
     <username>(root)</username>
-    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1773832107.35</time>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1773832108.37</time>
   </revision>
   <OPNsense>
     <wireguard>
