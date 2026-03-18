@@ -438,8 +438,8 @@ xAuwoBSxXROfQdAlJ2/9AAAAHHBpZXJyZS5jYXplbmF2ZTMzQG91dGxvb2suZnIB&#13;
   </ntpd>
   <revision>
     <username>(root)</username>
-    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLIResolv.php made changes</description>
-    <time>1773832105.14</time>
+    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
+    <time>1773832106.73</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1389,7 +1389,7 @@ xAuwoBSxXROfQdAlJ2/9AAAAHHBpZXJyZS5jYXplbmF2ZTMzQG91dGxvb2suZnIB&#13;
         <port>19999</port>
       </general>
     </netdata>
-    <Zenarmor version="0.0.0" persisted_at="1773832103.75" description="OPNsense Zenarmor Application">
+    <Zenarmor version="0.0.0" persisted_at="1773832106.73" description="OPNsense Zenarmor Application">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
