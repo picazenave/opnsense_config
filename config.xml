@@ -445,8 +445,8 @@ xAuwoBSxXROfQdAlJ2/9AAAAHHBpZXJyZS5jYXplbmF2ZTMzQG91dGxvb2suZnIB&#13;
   </ntpd>
   <revision>
     <username>(root)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1773850592.06</time>
+    <description>/usr/local/etc/rc.filter_configure made changes</description>
+    <time>1773850592.80</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -592,11 +592,29 @@ xAuwoBSxXROfQdAlJ2/9AAAAHHBpZXJyZS5jYXplbmF2ZTMzQG91dGxvb2suZnIB&#13;
       <Lvtemplate version="0.0.1" persisted_at="1764901665.72">
         <templates/>
       </Lvtemplate>
-      <Alias version="1.0.1" persisted_at="1764901665.96">
+      <Alias version="1.0.1" persisted_at="1773850592.80" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
-        <aliases/>
+        <aliases>
+          <alias uuid="da89f902-f6c2-4aae-bfe5-492dc9d9edf6">
+            <enabled>1</enabled>
+            <name>crowdsec_blocklists</name>
+            <type>external</type>
+            <path_expression/>
+            <proto>IPv4</proto>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content/>
+            <password/>
+            <username/>
+            <authtype/>
+            <expire/>
+            <categories/>
+            <description>CrowdSec (IPv4)</description>
+          </alias>
+        </aliases>
       </Alias>
       <Category version="1.0.0" persisted_at="1764901665.96">
         <categories/>
