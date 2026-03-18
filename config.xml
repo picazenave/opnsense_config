@@ -12,6 +12,16 @@
       <value>0</value>
       <descr>Packet filter on the member interface</descr>
     </item>
+    <item>
+      <tunable>dev.netmap.ring_num</tunable>
+      <value>1024</value>
+      <descr>Automatically added by Zenarmor</descr>
+    </item>
+    <item>
+      <tunable>dev.netmap.buf_num</tunable>
+      <value>1000000</value>
+      <descr>Automatically added by Zenarmor</descr>
+    </item>
   </sysctl>
   <system>
     <optimization>normal</optimization>
@@ -428,7 +438,7 @@ xAuwoBSxXROfQdAlJ2/9AAAAHHBpZXJyZS5jYXplbmF2ZTMzQG91dGxvb2suZnIB&#13;
   <revision>
     <username>(root)</username>
     <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1773832098.43</time>
+    <time>1773832101.77</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1378,7 +1388,7 @@ xAuwoBSxXROfQdAlJ2/9AAAAHHBpZXJyZS5jYXplbmF2ZTMzQG91dGxvb2suZnIB&#13;
         <port>19999</port>
       </general>
     </netdata>
-    <Zenarmor version="0.0.0" persisted_at="1773832098.43" description="OPNsense Zenarmor Application">
+    <Zenarmor version="0.0.0" persisted_at="1773832101.76" description="OPNsense Zenarmor Application">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
