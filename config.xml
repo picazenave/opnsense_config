@@ -285,7 +285,7 @@ xAuwoBSxXROfQdAlJ2/9AAAAHHBpZXJyZS5jYXplbmF2ZTMzQG91dGxvb2suZnIB&#13;
   <revision>
     <username>(root)</username>
     <description>Standard input code made changes</description>
-    <time>1775137669.95</time>
+    <time>1775137669.96</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -431,29 +431,11 @@ xAuwoBSxXROfQdAlJ2/9AAAAHHBpZXJyZS5jYXplbmF2ZTMzQG91dGxvb2suZnIB&#13;
       <Lvtemplate version="0.0.1" persisted_at="1764901665.72">
         <templates/>
       </Lvtemplate>
-      <Alias version="1.0.1" persisted_at="1775137669.95" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1775137669.96" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
-        <aliases>
-          <alias uuid="547ab914-46f1-4320-887e-375a12883bb2">
-            <enabled>1</enabled>
-            <name>crowdsec6_blocklists</name>
-            <type>external</type>
-            <path_expression/>
-            <proto>IPv6</proto>
-            <interface/>
-            <counters>0</counters>
-            <updatefreq/>
-            <content/>
-            <password/>
-            <username/>
-            <authtype/>
-            <expire/>
-            <categories/>
-            <description>CrowdSec (IPv6)</description>
-          </alias>
-        </aliases>
+        <aliases/>
       </Alias>
       <Category version="1.0.0" persisted_at="1764901665.96">
         <categories/>
