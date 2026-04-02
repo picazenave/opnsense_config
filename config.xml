@@ -285,7 +285,7 @@ xAuwoBSxXROfQdAlJ2/9AAAAHHBpZXJyZS5jYXplbmF2ZTMzQG91dGxvb2suZnIB&#13;
   <revision>
     <username>(root)</username>
     <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1775137845.36</time>
+    <time>1775137846.01</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -396,7 +396,7 @@ xAuwoBSxXROfQdAlJ2/9AAAAHHBpZXJyZS5jYXplbmF2ZTMzQG91dGxvb2suZnIB&#13;
       <zones/>
       <templates/>
     </captiveportal>
-    <cron version="1.0.4" persisted_at="1775137830.98" description="Cron settings">
+    <cron version="1.0.4" persisted_at="1775137846.00" description="Cron settings">
       <jobs>
         <job uuid="b19d5167-96ff-45fb-84ba-acc6dbcf3d06">
           <origin>IDS</origin>
@@ -410,6 +410,19 @@ xAuwoBSxXROfQdAlJ2/9AAAAHHBpZXJyZS5jYXplbmF2ZTMzQG91dGxvb2suZnIB&#13;
           <command>ids update</command>
           <parameters/>
           <description>ids rule updates</description>
+        </job>
+        <job uuid="bf6d0e6c-e98b-4dab-9f94-56292a17d323">
+          <origin>Zenarmor</origin>
+          <enabled>1</enabled>
+          <minutes>*</minutes>
+          <hours>*</hours>
+          <days>*</days>
+          <months>*</months>
+          <weekdays>*</weekdays>
+          <who>root</who>
+          <command>zenarmor periodicals</command>
+          <parameters/>
+          <description>Zenarmor periodicals</description>
         </job>
       </jobs>
     </cron>
